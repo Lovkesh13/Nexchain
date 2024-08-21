@@ -6,7 +6,7 @@ export default function loginPage() {
       <div id="login-container">
         <div id="login-explain">
           {/* <img src="nitjLogo.png" alt="" /> */}
-          <h3>Supply Chain Management Portal</h3>
+          <h3>Nexchain</h3>
           <p>
             Supply Chain Management (SCM) is crucial in today’s global economy,
             ensuring the efficient and effective flow of goods, services, and
