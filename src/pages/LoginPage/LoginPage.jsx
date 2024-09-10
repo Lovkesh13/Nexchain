@@ -5,7 +5,6 @@ export default function loginPage() {
     <section id="login-page" className="flex-center">
       <div id="login-container">
         <div id="login-explain">
-          {/* <img src="nitjLogo.png" alt="" /> */}
           <h3>Nexchain</h3>
           <p>
             Supply Chain Management (SCM) is crucial in today’s global economy,
