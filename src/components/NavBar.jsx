@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="navbar bg-primary" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="#">NexChain</Navbar.Brand>
+        <Navbar.Brand href="#">NeXchain</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,21 +18,17 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/inventory">Inventory</Nav.Link>
             <Nav.Link href="/login">Log In</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
+            <NavDropdown title="Orders" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Track Orders</NavDropdown.Item>
               <NavDropdown.Item href="#action5">
-                Something else here
+                Returns
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
+            <Nav.Link href="#cart">
+              Cart
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
